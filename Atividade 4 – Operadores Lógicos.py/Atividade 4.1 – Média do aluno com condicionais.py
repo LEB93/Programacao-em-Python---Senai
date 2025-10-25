@@ -11,11 +11,12 @@ n3 = float(input("Digite a nota 3: "))
 média = (n1+n2+n3)/3
 print(f"Média: {média:.2f}")
 
-#Para arredontamento também pode ser usado ==> print("Média:", round(média, 2))
+#Para arredondamento também pode ser usado ==> print("Média:", round(média, 2))
 
 if média >=7:
     print("Aluno aprovado")
 elif média >=5 and média <7:
     print("Aluno em recuperação")
 else:
+
     print("Reprovado")
