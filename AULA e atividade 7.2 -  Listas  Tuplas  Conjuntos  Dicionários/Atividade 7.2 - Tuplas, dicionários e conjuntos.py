@@ -36,4 +36,10 @@ minhas_compras["Valores"].append(Lojinha[Escolha3][prod3])
 print(minhas_compras)
 
 suma = sum(minhas_compras["Valores"])
+
+pagamento = ["", "1 - PIX", "2 - CC", "3 - CB"]
+escolha_pagamento = int(input(f"Digite o ID da forma de pagamento: {[pagamento]}"))
+print(pagamento[escolha_pagamento])
+print("Pagamento realizado com sucesso")
+
 print(f"O valor total da suas compra é R$ {suma}")
