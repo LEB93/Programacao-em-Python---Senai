@@ -13,6 +13,8 @@ else:
 idade = int(input("Qual é sua idade: "))
 if idade >= 16:
     print("Você pode votar.")
+if idade >=18:
+    print("Deve votar.")
 else:
     print("Você não pode votar.")
 
@@ -63,3 +65,4 @@ if num2 % 3 == 0 or num2 % 5 == 0:
 else:
 
     print("O valor não é divisivel por 3 ou 5")
+
